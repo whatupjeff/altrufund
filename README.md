@@ -10,8 +10,8 @@ Altrufund is a groundbreaking protocol for the issuance of donation-banked loans
 ## Project Details
 
 ### Goal
-- **Boost Donations to Public Goods**: Leveraging a derisking mechanism to amplify contributions towards societal welfare.
-- **Empower Socially Conscious Lenders**: Introducing innovative asset classes that harmonize financial growth with impactful social contributions.
+- **Boost Donations to Public Goods**: Leverage a derisking mechanism to amplify contributions towards societal welfare.
+- **Empower Socially Conscious Lenders**: Introduce innovative asset classes that harmonize financial growth with impactful social contributions.
 
 ### Background Information
 
@@ -34,7 +34,7 @@ Advance Market Commitments are financial mechanisms designed to stimulate invest
 ### Product: Donation-Backed Loans
 
 1. **Mechanism**:
-   - Donors secure an amount in escrow, released upon meeting project goals.
+   - Donors secure an amount in escrow to be released retroactively upon meeting project goals.
    - Service providers and lenders competitively submit project proposals and funding offers.
 
 2. **Post-Project Evaluation**:
@@ -52,10 +52,10 @@ Advance Market Commitments are financial mechanisms designed to stimulate invest
 At the commencement of a project, service providers mint a hypercert. Hypercerts, in this context, represent a blockchain-based certification of project initiation and progress, akin to digital tokens that embody the project's value and impact.
 
 ### Staking
-Donors stake assets, which are programmed to be automatically swapped for the hypercert upon the successful evaluation of the project. This mechanism ensures that donors' contributions are directly linked to the tangible outcomes of the project.
+Donors stake assets, which are programmed to be automatically swapped for the hypercert upon successful evaluation of the project. This mechanism ensures that donors' contributions are directly linked to the tangible outcomes of the project. Assets staked in Altrufund are rehypothecated to yield-bearing DeFi protocols, optimizing their potential to generate returns.
 
 ### Evaluation
-Evaluation is a critical component that determines the success of the project and, consequently, the movement of staked assets.
+Evaluation is a critical component that determines the success of the project and, consequently, the transfer of staked assets.
 
 #### Subjective and Off-Chain Criteria - Attestation
 - For criteria that are subjective or cannot be verified on the blockchain, one or more attestors are selected. These attestors come from a list of evaluators provided by the donor and/or lender. 
@@ -65,19 +65,18 @@ Evaluation is a critical component that determines the success of the project an
 #### On-Chain Criteria - Oracle Verification
 - For criteria that can be verified directly on the blockchain, oracles are used. 
 - Oracles are automated, smart contract-based systems that verify project outcomes. They play a crucial role in unlocking staked assets based on the success of the project, as determined by pre-set, verifiable on-chain criteria.
-- - **Example**: A clean water project involves installing filtration systems in a rural area. The success is measured by the volume of clean water produced, data for which is tracked by smart sensors and verified by an oracle to ensure project criteria are met.
+- **Example**: A clean water project involves installing filtration systems in a rural area. The success is measured by the volume of clean water produced, data for which is tracked by smart sensors and verified by an oracle to ensure project criteria are met.
 
 ### Lending and Collateral
-- Lenders provide assets to service providers, with the hypercert serving as collateral. This arrangement aligns the interests of the service providers with the successful completion of the project.
-- Upon successful attestation and verification, the hypercert is transferred to the donor, signifying the project's success. Simultaneously, the staked bounty is transferred to the lender as a return on their investment.
+- Lenders provide loans to service providers with the hypercert serving as collateral. This arrangement aligns the interests of the service providers with the successful completion of the project. In technical terms, the lenders issue non-recourse zero-coupon notes secured by the hypercert.
+- Upon successful attestation and verification, the hypercert is transferred to the donor, signifying the project's success. Simultaneously, the staked bounty is transferred to the lender as a return on their loan.
 
-### Conclusion
-In conclusion, Altrufund's Web3 system design leverages the power of blockchain technology to ensure transparency, accountability, and direct linkage between project success and financial transactions. It embodies a new era of impact-focused finance, where the achievements of social projects are tangibly and reliably rewarded. Altrufund innovatively bridges the gap between philanthropy and investment, fostering a dynamic ecosystem where social good and financial returns are mutually reinforcing.
+## Conclusion
+In conclusion, Altrufund's Web3 system design leverages the power of blockchain technology to ensure transparency, accountability, and direct linkage between project success and financial transactions. It embodies a new era of impact-focused finance, where the achievements of social projects are tangibly and reliably rewarded. Altrufund bridges the gap between philanthropy and financial markets, fostering a dynamic ecosystem where social good and financial returns are mutually reinforcing.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
